@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar build/libs/*-all.jar
+worker: java $JAVA_OPTS -jar build/libs/*-all.jar
