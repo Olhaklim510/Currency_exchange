@@ -73,7 +73,7 @@ public class TimeUpdateButton implements Button {
                 }
                 if (bt.getCallbackData().equals(TIME_UPDATE_DISABLE_CALLBACK.getCallback())) {
                     if (settings.isCheckDisableTimeUpdate()) {
-                        bt.setText(CHECK + TIME_UPDATE_DISABLE.getName());
+                        bt.setText(TIME_UPDATE_DISABLE.getName());
                     } else {
                         bt.setText(TIME_UPDATE_DISABLE.getName());
                     }

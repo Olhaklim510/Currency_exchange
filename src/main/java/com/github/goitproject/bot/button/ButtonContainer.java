@@ -2,8 +2,10 @@ package com.github.goitproject.bot.button;
 
 import com.github.goitproject.bot.service.SendMessageBotService;
 import com.google.common.collect.ImmutableMap;
+
 import java.util.HashMap;
 import java.util.Map;
+
 import static com.github.goitproject.bot.button.enum_button.ButtonCallBack.HELP_CALLBACK;
 import static com.github.goitproject.bot.button.enum_button.ButtonName.*;
 import static com.github.goitproject.bot.button.enum_button.ButtonCallBack.*;
@@ -30,7 +32,7 @@ public class ButtonContainer {
                 .put(EUR_CALLBACK.getCallback(), currencyButton)
                 .put(CZK_CALLBACK.getCallback(), currencyButton)
                 .put(PLN_CALLBACK.getCallback(), currencyButton)
-                .put(GBP_CALLBACK.getCallback(),currencyButton)
+                .put(GBP_CALLBACK.getCallback(), currencyButton)
                 .put(BANK_CALLBACK.getCallback(), bankButton)
                 .put(NBU_CALLBACK.getCallback(), bankButton)
                 .put(MONOBANK_CALLBACK.getCallback(), bankButton)
